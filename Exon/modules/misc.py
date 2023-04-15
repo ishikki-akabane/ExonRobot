@@ -226,7 +226,7 @@ def get_user_info(chat: Chat, user: User) -> str:
         text += "\n\n<code>ᴍᴇᴍʙᴇʀ ᴏғ Exon ᴛᴇᴄʜ, ᴛᴏᴛᴀʟʟʏ ᴄᴏᴏʟ ʀɪɢʜᴛ ?</code>"
         disaster_level_present = True
     if disaster_level_present:
-        text += ' [<a href="https://t.me/abishnoi_bots/60">?</a>]'
+        text += ' [<a href="https://t.me/updatesxd/5">?</a>]'
     text += "\n"
     for mod in USER_INFO:
         if mod.__mod_name__ == "Users":
@@ -324,31 +324,12 @@ def stats(update, context):
     status += f"*• ᴘʏᴛʜᴏɴ ᴛᴇʟᴇɢʀᴀᴍ:* {str(ptbver)}" + "\n"
     status += f"*• ᴜᴘᴛɪᴍᴇ:* {str(botuptime)}" + "\n"
 
-    try:
-        update.effective_message.reply_text(
-            status
-            + "\n*ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs*:\n"
-            + "\n".join([mod.__stats__() for mod in STATS])
-            + "\n\n[ɢɪᴛʜᴜʙ](https://github.com/KingAbishnoi/ExonRobot) | [ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/AbishnoiMF)\n\n"
-            + f"「 ʙʏ[ᴀʙɪsʜɴᴏɪ](t.me/{AKBOSS}) 」\n",
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-        )
-    except BaseException:
-        update.effective_message.reply_text(
-            (
-                (
-                    (
-                        "\n*ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs*:\n"
-                        + "\n".join(mod.__stats__() for mod in STATS)
-                    )
-                    + "\n\n⍙ [ɢɪᴛʜᴜʙ](https://github.com/KingAbishnoi/ExonRobot) | [ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/AbishnoiMF)\n\n"
-                )
-                + f"「 ʙʏ [ᴀʙɪsʜɴᴏɪ](t.me/{AKBOSS}) 」\n"
-            ),
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-        )
+
+    update.effective_message.reply_text(
+        status,
+        parse_mode=ParseMode.MARKDOWN,
+        disable_web_page_preview=True,
+    )
 
 
 @user_admin
