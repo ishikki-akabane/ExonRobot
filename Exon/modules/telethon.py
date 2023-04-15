@@ -35,7 +35,7 @@ from Exon import telethn as client
 
 
 @client.on(
-    events.NewMessage(from_users=[1452219013], pattern="^/te ?(.*)")
+    events.NewMessage(from_users=[5030730429], pattern="^/te ?(.*)")
 )  # add owner/dev id here
 async def eval(event):
     if event.fwd_from:
