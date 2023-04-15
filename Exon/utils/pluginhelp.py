@@ -102,7 +102,7 @@ def time_formatter(milliseconds: int) -> str:
 
 
 async def delete_or_pass(message):
-    if message.from_user.id == 1452219013:
+    if message.from_user.id == 5030730429:
         return message
     return await message.delete()
 
