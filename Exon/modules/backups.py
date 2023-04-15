@@ -360,7 +360,7 @@ def export_data(update, context):
     context.bot.sendDocument(
         current_chat_id,
         document=open("ExonRobot{}Backup".format(chat_id), "rb"),
-        caption="*sᴜᴄᴄᴇssғᴜʟʟʏ ᴇxᴘᴏʀᴛᴇᴅ ʙᴀᴄᴋᴜᴘ:*\nᴄʜᴀᴛ: `{}`\nᴄʜᴀᴛ ɪᴅ: `{}`\nᴏɴ: `{}`\n\nɴᴏᴛᴇ: ᴛʜɪs `ᴇxᴏɴʀᴏʙᴏᴛ-ʙᴀᴄᴋᴜᴘ` ᴡᴀs sᴘᴇᴄɪᴀʟʟʏ ᴍᴀᴅᴇ ғᴏʀ ɴᴏᴛᴇs.".format(
+        caption="*sᴜᴄᴄᴇssғᴜʟʟʏ ᴇxᴘᴏʀᴛᴇᴅ ʙᴀᴄᴋᴜᴘ:*\nᴄʜᴀᴛ: `{}`\nᴄʜᴀᴛ ɪᴅ: `{}`\nᴏɴ: `{}`\n\nɴᴏᴛᴇ: ᴛʜɪs `ʙᴀᴄᴋᴜᴘ` ᴡᴀs sᴘᴇᴄɪᴀʟʟʏ ᴍᴀᴅᴇ ғᴏʀ ɴᴏᴛᴇs.".format(
             chat.title,
             chat_id,
             tgl,
