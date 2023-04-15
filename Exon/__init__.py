@@ -37,7 +37,7 @@ import pymongo
 import spamwatch
 import telegram.ext as tg
 from aiohttp import ClientSession
-from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
+from motor import motor_asyncio
 from odmantic import AIOEngine
 from pymongo import MongoClient
 from pyrogram import Client
@@ -345,8 +345,10 @@ pgram = Client(
     bot_token=TOKEN,
 )
 print("[EXON ]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴇxᴏɴ sᴇʀᴠᴇʀ")
-mongodb = MongoClient(MONGO_DB_URL, 27017)
-database1 = mongodb["SHIZUKA"]
+mongodb = MongoClient(MONGO_DB_URL, 27017)[MONGO_DB]
+motor = motor_asyncio.AsyncIOMotorClient(MONGO_DB_URL)
+db = motor[MONGO_DB]
+engine = AIOEngine(motor, MONGO_DB)
 db = motor["SHIZUKA"]
 print("[INFO]: ɪɴɪᴛɪᴀʟᴢɪɴɢ ᴀɪᴏʜᴛᴛᴘ sᴇssɪᴏɴ")
 aiohttpsession = ClientSession()
