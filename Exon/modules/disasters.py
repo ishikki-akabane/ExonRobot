@@ -187,7 +187,7 @@ def addwhitelist(update: Update, context: CallbackContext) -> str:
         DEMONS.remove(user_id)
 
     if user_id in WOLVES:
-        message.reply_text("ᴛʜɪs ᴜsᴇʀ ɪs ᴀʟʀᴇᴀᴅʏ ᴀ ᴛʀᴜᴇ ᴇxᴏɴ")
+        message.reply_text("ᴛʜɪs ᴜsᴇʀ ɪs ᴀʟʀᴇᴀᴅʏ ᴀ ᴛʀᴜᴇ ")
         return ""
 
     data["whitelists"].append(user_id)
@@ -241,7 +241,7 @@ def addtiger(update: Update, context: CallbackContext) -> str:
         DEMONS.remove(user_id)
 
     if user_id in WOLVES:
-        rt += "ᴛʜɪs ᴜsᴇʀ ɪs ᴀʟʀᴇᴀᴅʏ a ᴇxᴏɴ, ᴡᴇ ᴄᴀɴ ʙᴇ ᴄʟᴀssᴍᴀᴛᴇs ᴀs ᴡᴇʟʟ.."
+        rt += "ᴛʜɪs ᴜsᴇʀ ɪs ᴀʟʀᴇᴀᴅʏ a wolf, ᴡᴇ ᴄᴀɴ ʙᴇ ᴄʟᴀssᴍᴀᴛᴇs ᴀs ᴡᴇʟʟ.."
         data["whitelists"].remove(user_id)
         WOLVES.remove(user_id)
 
@@ -386,7 +386,7 @@ def removewhitelist(update: Update, context: CallbackContext) -> str:
             log_message = f"<b>{html.escape(chat.title)}:</b>\n{log_message}"
 
         return log_message
-    message.reply_text("ᴛʜɪs ᴜsᴇʀ ɪs ɴᴏᴛ ᴀ ᴇxᴏɴ!")
+    message.reply_text("ᴛʜɪs ᴜsᴇʀ ɪs ɴᴏᴛ ᴀ wolf!")
     return ""
 
 
@@ -431,9 +431,9 @@ def removetiger(update: Update, context: CallbackContext) -> str:
 
 @whitelist_plus
 def whitelistlist(update: Update, context: CallbackContext):
-    reply = "<b>ᴇxᴏɴ:</b>\n\n"
+    reply = "<b>wolf:</b>\n\n"
     m = update.effective_message.reply_text(
-        "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ ғʀᴏᴍ ᴇxᴏɴ..</code>",
+        "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ ғʀᴏᴍ ..</code>",
         parse_mode=ParseMode.HTML,
     )
     bot = context.bot
@@ -452,7 +452,7 @@ def whitelistlist(update: Update, context: CallbackContext):
 def tigerlist(update: Update, context: CallbackContext):
     reply = "<b>Classmates:</b>\n\n"
     m = update.effective_message.reply_text(
-        "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ ғʀᴏᴍ ᴇxᴏɴ ɪǫ.</code>",
+        "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ</code>",
         parse_mode=ParseMode.HTML,
     )
     bot = context.bot
@@ -470,7 +470,7 @@ def tigerlist(update: Update, context: CallbackContext):
 def supportlist(update: Update, context: CallbackContext):
     bot = context.bot
     m = update.effective_message.reply_text(
-        "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ ғʀᴏᴍ .</code>",
+        "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ</code>",
         parse_mode=ParseMode.HTML,
     )
     reply = "<b>ғʀɪᴇɴᴅs:</b>\n\n"
@@ -488,7 +488,7 @@ def supportlist(update: Update, context: CallbackContext):
 def sudolist(update: Update, context: CallbackContext):
     bot = context.bot
     m = update.effective_message.reply_text(
-        "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ ғʀᴏᴍ ᴇxᴏɴ ʜǫ.</code>",
+        "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ ғʀᴏᴍ ʜǫ.</code>",
         parse_mode=ParseMode.HTML,
     )
     true_sudo = list(set(DRAGONS) - set(DEV_USERS))
@@ -507,7 +507,7 @@ def sudolist(update: Update, context: CallbackContext):
 def devlist(update: Update, context: CallbackContext):
     bot = context.bot
     m = update.effective_message.reply_text(
-        "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ ғʀᴏᴍ ᴀʙɪsʜɴᴏɪ HQ..</code>",
+        "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ ғʀᴏᴍ HQ..</code>",
         parse_mode=ParseMode.HTML,
     )
     true_dev = list(set(DEV_USERS) - {OWNER_ID})
