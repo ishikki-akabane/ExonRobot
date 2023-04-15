@@ -317,7 +317,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="ᴏᴡɴᴇʀ",
-                            url=f"https://t.me/{OWNER_USERNAME}",
+                            url="https://t.me/SURYANSH_758",
                         ),
                         InlineKeyboardButton(
                             text="ᴄʟᴏsᴇ",
@@ -766,7 +766,7 @@ def main():
 ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
 
 ━━━━━━━━━━━━━
-⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [abc](https://t.me/{OWNER_USERNAME})
+⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [Ꮇ Ｉ N Ꭺ Ꭲ Ｏ ♡](https://t.me/SURYANSH_758)
 ⍟ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 ⍟ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 ⍟ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
