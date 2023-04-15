@@ -192,7 +192,7 @@ __help__ = """
 
 
 AFK_HANDLER = DisableAbleCommandHandler("afk", afk)
-AFK_REGEX_HANDLER = MessageHandler(Filters.regex("(?i)brb|(?i)bye|(?i)byy"), afk)
+AFK_REGEX_HANDLER = MessageHandler(Filters.regex("(?i)brb|(?i)!afk"), afk)
 NO_AFK_HANDLER = MessageHandler(Filters.all & Filters.chat_type.groups, no_longer_afk)
 AFK_REPLY_HANDLER = MessageHandler(Filters.all & Filters.chat_type.groups, reply_afk)
 
