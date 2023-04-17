@@ -70,7 +70,7 @@ async def restart(client, m: Message):
         random.choice(PHOTO),
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}**
      ▱▱▱▱▱▱▱▱▱▱▱▱
-» **ᴍʏ ᴏᴡɴᴇʀ :** [Ꮇ Ｉ N Ꭺ Ꭲ Ｏ ♡](https://t.me/SURYANSH_758)
+» **ᴍʏ ᴏᴡɴᴇʀ :** [SHURYANSH♡](https://t.me/SURYANSH_758)
 » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 » **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 » **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
