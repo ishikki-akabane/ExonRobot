@@ -127,7 +127,7 @@ Shizuka ɪꜱ ᴀ
 *ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ!*
 *ᴀʟɪᴠᴇ ᴜᴘᴛɪᴍᴇ :* `{}`
 Powered by:
-   ━ [TEAM ROCKET](htts://t.me/)
+   ━ [Demon Slayer Corps](htts://t.me/)
 ━━━━━━━━━━━━━━
 """
 
@@ -766,7 +766,7 @@ def main():
 ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
 
 ━━━━━━━━━━━━━
-⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [Ꮇ Ｉ N Ꭺ Ꭲ Ｏ ♡](https://t.me/SURYANSH_758)
+⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [SURYANSH♡](https://t.me/SURYANSH_758)
 ⍟ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 ⍟ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 ⍟ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
