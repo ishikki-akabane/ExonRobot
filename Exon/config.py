@@ -58,11 +58,11 @@ class Config(object):
 
     SQLALCHEMY_DATABASE_URI = "postgres://qszfsijv:y6sYqkEb8Z9lFGBmriG7AYjbSbgAJBVk@peanut.db.elephantsql.com/qszfsijv"  # sql
     DATABASH_URL = "postgres://qszfsijv:y6sYqkEb8Z9lFGBmriG7AYjbSbgAJBVk@peanut.db.elephantsql.com/qszfsijv"  # sql
-    DB_URL = "postgres://qszfsijv:y6sYqkEb8Z9lFGBmriG7AYjbSbgAJBVk@peanut.db.elephantsql.com/qszfsijvxxqszfsijvx
-    MONGO_DB_URL = ""  # needed for any database modules
-    MONGO_URL = ""
-    DB_URL2 = ""  # YOUR MONGO_DB_URI
-    ARQ_API_URL = "https://arq.hamker.in"
+    DB_URL = "postgres://qszfsijv:y6sYqkEb8Z9lFGBmriG7AYjbSbgAJBVk@peanut.db.elephantsql.com/qszfsijvxxqszfsijvx"
+    MONGO_DB_URL = "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
+    MONGO_URL = "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority"
+    DB_URL2 = "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority"  # YOUR MONGO_DB_URI
+    ARQ_API_URL = "https://arq.hamker.dev"
     BOT_API_URL = "https://api.telegram.org/bot"
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
