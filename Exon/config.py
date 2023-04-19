@@ -38,10 +38,10 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
 
-    API_ID = "983922"
-    API_HASH = "SMSMSMSAKAMAKA"
-    APP_ID = "953922"  # 2nd API_ID
-    APP_HASH = "funssnAjsjaSJns82AjajU"  # 2ns API_HASH
+    API_ID = "13600724"
+    API_HASH = "ee59fd28d0d065c6b7d105082c6a0ba0"
+    APP_ID = "13600724"  # 2nd API_ID
+    APP_HASH = "ee59fd28d0d065c6b7d105082c6a0ba0"  # 2ns API_HASH
     ARQ_API_KEY = "TENRCY-KDKSK-MSMSM-OXQYYO-ARQ"
     BOT_ID = "5408158735"
     TOKEN = "5458182410:KINGABISHNOI-UM"
@@ -56,9 +56,9 @@ class Config(object):
     EVENT_LOGS = "-1001497222182"
     ERROR_LOGS = "-1001497222182"
 
-    SQLALCHEMY_DATABASE_URI = ""  # sql
-    DATABASH_URL = ""  # sql
-    DB_URL = ""
+    SQLALCHEMY_DATABASE_URI = "postgres://qszfsijv:y6sYqkEb8Z9lFGBmriG7AYjbSbgAJBVk@peanut.db.elephantsql.com/qszfsijv"  # sql
+    DATABASH_URL = "postgres://qszfsijv:y6sYqkEb8Z9lFGBmriG7AYjbSbgAJBVk@peanut.db.elephantsql.com/qszfsijv"  # sql
+    DB_URL = "postgres://qszfsijv:y6sYqkEb8Z9lFGBmriG7AYjbSbgAJBVk@peanut.db.elephantsql.com/qszfsijvxxqszfsijvx
     MONGO_DB_URL = ""  # needed for any database modules
     MONGO_URL = ""
     DB_URL2 = ""  # YOUR MONGO_DB_URI
