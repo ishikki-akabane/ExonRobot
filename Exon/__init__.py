@@ -204,15 +204,15 @@ if ENV:
 else:
     from Exon.config import Development as Config
 
-    TOKEN = Config.TOKEN
+    TOKEN = Config.TOKEN #
 
     try:
-        OWNER_ID = int(Config.OWNER_ID)
+        OWNER_ID = int(Config.OWNER_ID) #
     except ValueError:
         raise Exception("ʏᴏᴜʀ OWNER_ID ᴠᴀʀɪᴀʙʟᴇ ɪs ɴᴏᴛ ᴀ ᴠᴀʟɪᴅ ɪɴᴛᴇɢᴇʀ.")
 
-    JOIN_LOGGER = Config.JOIN_LOGGER
-    OWNER_USERNAME = Config.OWNER_USERNAME
+    JOIN_LOGGER = Config.JOIN_LOGGER #
+    OWNER_USERNAME = Config.OWNER_USERNAME #
     ALLOW_CHATS = Config.ALLOW_CHATS
     try:
         DRAGONS = {int(x) for x in Config.DRAGONS or []}
@@ -246,7 +246,6 @@ else:
     API_HASH = Config.API_HASH
     ARQ_API_URL = Config.ARQ_API_URL
     ARQ_API_KEY = Config.ARQ_API_KEY
-    DB_URL = Config.SQLALCHEMY_DATABASE_URI
     DB_URI = Config.SQLALCHEMY_DATABASE_URI
     DB_URL2 = Config.DB_URL2
     DONATION_LINK = Config.DONATION_LINK
