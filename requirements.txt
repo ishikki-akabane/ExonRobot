@@ -102,3 +102,4 @@ youtube_search_python
 yt-dlp
 zalgo-text
 #ǫ ʀᴇ sᴀʟᴇ ɢᴀʏ ᴋʏ ᴅᴇᴋ ʀᴀ ʜ ʏᴀ 
+pyshorteners
