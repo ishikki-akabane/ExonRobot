@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Exon import pgram
+from Exon import pgram as Bot
 import pyshorteners
 
 
