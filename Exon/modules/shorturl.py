@@ -13,7 +13,7 @@ async def urlshortner(client, message):
             f"Please give me link to create a shortlink!"
         )
         return
-    url = msg.text.split(None, 1)[1]
+    url = msg_text.split(None, 1)[1]
     shortener = pyshorteners.Shortener()
     short_url = shortener.tinyurl.short(url)
     await message.reply_text(
